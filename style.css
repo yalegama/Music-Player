@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: auto;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: rosybrown;
+  height: 95vh;
+}
+.player_box {
+  padding: 20px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 3rem;
+}
+.song_title {
+  padding: 5px;
+}
+.song_title2 {
+  font-size: 25px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.image {
+  border: 5px black solid;
+  width: 40%;
+  height: 50vh;
+}
+progress {
+  width: 50%;
+  padding: 5px;
+}
+.controllers .prev {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+.controllers .play {
+  width: 80px;
+  height: 80px;
+  cursor: pointer;
+}
+.controllers .next {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+footer {
+  text-align: center;
+  background-color: black;
+  height: 5vh;
+  color: aliceblue;
+}
