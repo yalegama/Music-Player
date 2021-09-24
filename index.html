@@ -5,8 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Music Player</title>
+    <!-- Cascading Style Sheet -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- Font awsome Style Sheet URL -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
 </head>
 <body>
-    
+    <!-- Music Player Body Section -->
+    <div class="container">
+        <div class="music_container_box">
+            <h1 class="player_box">Music Player</h1>
+            <audio id="audio" src="./songs/Ayi_Kale.mp3"></audio>
+            <h2 class="song_title" id="song_title">song1</h2>
+            <img id="cover" class="image" src="./images/ai_kale_adare.jpeg" alt="">
+            <h2 class="song_title2" id="song_title2">song1</h2>
+            <div class="progress_bar">
+                <progress id="progress"></progress>
+            </div>
+            <div class="controllers">
+                <button class="prev">
+                    <i class="fas fa-backward" id="preSong"></i>
+                </button>
+                <button class="play">
+                    <i class="fas fa-play" id="play1"></i>
+                </button>
+                <button class="next">
+                    <i class="fas fa-forward" id="nextSong"></i>
+                </button>
+            </div>
+
+        </div>
+    </div>
+    <!-- Footer Section -->
+    <footer>
+        <h3>@copyrights Nadun Yalegama </h3>
+    </footer>
 </body>
+<!-- Javascripit File -->
+<script src="./script.js"></script>
 </html>
