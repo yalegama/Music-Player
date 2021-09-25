@@ -4,43 +4,48 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="World Best Music Player In Sri Lanka">
+    <meta name="keywords" content="music,music player,Sri Lanka,player">
     <title>Music Player</title>
     <!-- Cascading Style Sheet -->
     <link rel="stylesheet" href="./style.css">
-    <!-- Font awsome Style Sheet URL -->
+    <!-- Font Awsome CDN -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
 </head>
 <body>
-    <!-- Music Player Body Section -->
     <div class="container">
-        <div class="music_container_box">
-            <h1 class="player_box">Music Player</h1>
-            <audio id="audio" src="./songs/Ayi_Kale.mp3"></audio>
-            <h2 class="song_title" id="song_title">song1</h2>
-            <img id="cover" class="image" src="./images/ai_kale_adare.jpeg" alt="">
-            <h2 class="song_title2" id="song_title2">song1</h2>
-            <div class="progress_bar">
+        <div class="container_box" id="container-box">
+            <h1 class="heading" id="heading">Music Player</h1>
+            <audio id="audio" src=""></audio>
+            <img src="./images/Ai_kale_muluhadinma_oba_mata_adare.jpeg" alt="" class="cover" id="cover">
+            <h3 class="title" id="title">Song 1</h3>
+            <div class="progressArea" id="progressArea">
                 <progress id="progress"></progress>
             </div>
-            <div class="controllers">
-                <button class="prev">
-                    <i class="fas fa-backward" id="preSong"></i>
+            <div class="controllers" id="controllers">
+                <button class="shuffle" id="shuffle">
+                    <i class="fas fa-random" ></i>
                 </button>
-                <button class="play">
-                    <i class="fas fa-play" id="play1"></i>
+                <button class="preBtn" id="preBtn">
+                    <i class="fas fa-backward" ></i>
                 </button>
-                <button class="next">
-                    <i class="fas fa-forward" id="nextSong"></i>
+                <button class="playBtn" id="playBtn">
+                    <i class="fas fa-play" ></i>
+                </button>
+                <button class="nextBtn" id="nextBtn">
+                    <i class="fas fa-forward" ></i>
+                </button>
+                <button class="repeat" id="repeat">
+                    <i class="fas fa-repeat" ></i>
                 </button>
             </div>
-
         </div>
     </div>
     <!-- Footer Section -->
     <footer>
-        <h3>@copyrights Nadun Yalegama </h3>
+        <h3 class="copyright" id="coopyright">@copyright Nadun Yalegama</h3>
     </footer>
 </body>
-<!-- Javascripit File -->
+<!-- Javascript File -->
 <script src="./script.js"></script>
 </html>

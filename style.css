@@ -5,53 +5,62 @@
 }
 
 .container {
-  margin: auto;
-  width: 100%;
-  justify-content: center;
+  background-color: rosybrown;
   align-items: center;
   text-align: center;
-  background-color: rosybrown;
+  width: 100%;
   height: 95vh;
 }
-.player_box {
-  padding: 20px;
-  font-family: "Courier New", Courier, monospace;
+.heading {
+  padding: 15px;
   font-size: 3rem;
+  font-family: "Courier New", Courier, monospace;
 }
-.song_title {
-  padding: 5px;
-}
-.song_title2 {
-  font-size: 25px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-}
-.image {
+.cover {
   border: 5px black solid;
-  width: 40%;
-  height: 50vh;
+  width: 50%;
+  height: 60vh;
+}
+.title {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 1.5rem;
 }
 progress {
-  width: 50%;
+  width: 40%;
   padding: 5px;
 }
-.controllers .prev {
-  width: 50px;
-  height: 50px;
-  cursor: pointer;
-}
-.controllers .play {
-  width: 80px;
-  height: 80px;
-  cursor: pointer;
-}
-.controllers .next {
-  width: 50px;
-  height: 50px;
-  cursor: pointer;
-}
-footer {
+.controllers {
+  padding: 10px;
+  width: 100%;
+  align-items: center;
   text-align: center;
+  justify-content: space-evenly;
+}
+.playBtn {
+  height: 70px;
+  width: 70px;
+  cursor: pointer;
+}
+.preBtn,
+.nextBtn {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+.repeat,
+.shuffle {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+/*Footer Section*/
+footer {
   background-color: black;
-  height: 5vh;
   color: aliceblue;
+  align-items: center;
+  text-align: center;
+  height: 5vh;
+}
+.copyright {
+  padding: 10px;
 }
